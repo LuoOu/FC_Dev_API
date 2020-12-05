@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import recommonmark
 # for Sphinx-1.4 or newer
 extensions = ['recommonmark']
 

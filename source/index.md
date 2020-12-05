@@ -4,7 +4,7 @@ Welcome to dalongrongdemo's documentation!
 
 .. toctree::
   :maxdepth: 2
-  # wdqw
+  index
 
 
 Indices and tables
