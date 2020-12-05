@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-
+import recommonmark
 # for Sphinx-1.4 or newer
 extensions = ['recommonmark']
-import recommonmark
+
 # for Sphinx-1.3
 # from recommonmark.parser import CommonMarkParser
 #
