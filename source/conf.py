@@ -8,23 +8,24 @@ import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 from recommonmark.parser import CommonMarkParser
-extensions = [
-    'sphinx_markdown_tables'
-]
+# extensions = [
+#     'sphinx_markdown_tables'
+# ]
 # extensions = ['recommonmark']
-source_parsers = {
-    '.md': CommonMarkParser,
-}
+# source_parsers = {
+#     '.md': CommonMarkParser,
+# }
 
 source_suffix = ['.rst', '.md']
 
 
-# extensions = [
-#     'sphinx.ext.autodoc',
-#     'sphinx.ext.napoleon',
-#     'sphinx.ext.mathjax',
-#     'recommonmark',
-# ]
+extensions = [
+    'sphinx.ext.autodoc',
+
+    'sphinx.ext.napoleon',
+    'sphinx.ext.mathjax',
+    'recommonmark',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
