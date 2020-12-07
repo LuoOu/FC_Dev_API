@@ -44,5 +44,5 @@ author = u'luoou'
 github_doc_root = 'https:'
 
 
-language = None
+language = 'zh'
 
