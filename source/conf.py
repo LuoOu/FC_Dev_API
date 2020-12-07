@@ -5,6 +5,7 @@
 
 # for Sphinx-1.3
 import sphinx_rtd_theme
+import sphinx_markdown_tables
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 from recommonmark.parser import CommonMarkParser
@@ -20,8 +21,8 @@ source_suffix = ['.rst', '.md']
 
 
 extensions = [
+    'sphinx_markdown_tables',
     'sphinx.ext.autodoc',
-
     'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
     'recommonmark',

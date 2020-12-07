@@ -1,22 +1,23 @@
+====================
 FC development
 ====================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Getting Started
+  :maxdepth: 2
+  :caption: Getting Started
 
-    install
-    upgrade
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Directions for use
-
-    fcDesktop
+  Getting_Started/install
+  Getting_Started/upgrade
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Technical Documentation
+  :maxdepth: 2
+  :caption: Directions for use
 
-    pythonAPI
+  Directions_for_use/fcDesktop
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Technical Documentation
+
+  Technical_Documentation/pythonAPI
 
